@@ -1,4 +1,7 @@
 $primary-colot: #4444;
+
+@import "config";
+
 body {
   background-color: $primary-colot;
   margin: 0 0 0 0;
@@ -49,3 +52,5 @@ body {
     }
   }
 }
+
+@import "mobile";
