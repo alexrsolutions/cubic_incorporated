@@ -35,3 +35,21 @@ body {
         color: #ffffff; }
       .img-principal .title-container .title .subtitle .subtitle-optional {
         color: #ffffff; }
+
+@media screen and (max-width: 500px) {
+  .img-principal .title-container .title {
+    padding-top: 150px;
+    text-align: center;
+    margin: auto; }
+    .img-principal .title-container .title .title-cursor {
+      margin: auto;
+      color: #ffffff;
+      font-size: 2em; }
+    .img-principal .title-container .title .subtitle {
+      padding-top: 15px; }
+      .img-principal .title-container .title .subtitle h1 {
+        font-size: 1.5em; }
+      .img-principal .title-container .title .subtitle .subtitle-optional {
+        padding: 0;
+        margin: 0;
+        font-size: 1rem; } }
