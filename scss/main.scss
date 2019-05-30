@@ -20,6 +20,8 @@ body {
   padding-right: auto;
 }
 
+//Menu Part
+
 .img-principal {
   width: 100%;
   height: 400px;
@@ -55,10 +57,24 @@ body {
   }
 }
 
+//About Section
 .about {
   width: 100%;
   height: 400px;
   background-color: #1e345e;
+}
+
+//Companies Partner Up
+.company-partner {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 15px;
+}
+
+.slide {
+  display: inline-block;
 }
 
 .footer {
