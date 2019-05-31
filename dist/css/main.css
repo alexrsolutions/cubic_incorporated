@@ -88,6 +88,7 @@ body {
     display: block;
     border-radius: 50%; }
   .testimonial-custom .carousel .testimonial {
+    padding: 0 0px 20px 0px;
     position: relative; }
   .testimonial-custom .carousel .testimonial::before {
     content: "\93";
@@ -98,8 +99,6 @@ body {
     position: absolute;
     left: 15px;
     top: 0; }
-  .testimonial-custom .carousel-item {
-    height: 20%; }
   .testimonial-custom #myCarousel {
     overflow: hidden;
     width: 100%; }

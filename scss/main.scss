@@ -118,7 +118,7 @@ body {
     border-radius: 50%;
   }
   .carousel .testimonial {
-    //padding: 0 15px 0 60px;
+    padding: 0 0px 20px 0px;
     position: relative;
   }
   .carousel .testimonial::before {
@@ -130,10 +130,6 @@ body {
     position: absolute;
     left: 15px;
     top: 0;
-  }
-
-  .carousel-item {
-    height: 20%;
   }
 
   #myCarousel {
