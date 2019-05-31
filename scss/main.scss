@@ -76,8 +76,15 @@ body {
   display: inline-block;
 }
 
-//Testimonial
+//Team Members
+.team-members {
+  padding: 15px 0px 15px 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../imgs/cubic2.jpg");
+  color: #ffffff;
+}
 
+//Testimonial
 .testimonial-custom {
   background-color: #404c63;
   h2 {
