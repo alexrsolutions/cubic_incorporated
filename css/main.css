@@ -43,6 +43,53 @@ body {
   height: 400px;
   background-color: #1e345e; }
 
+#custom_carousel .item {
+  color: #000;
+  background-color: #eee;
+  padding: 20px 0; }
+
+#custom_carousel .controls {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+  background: #ddd; }
+
+#custom_carousel .controls li {
+  display: table-cell;
+  width: 1%;
+  max-width: 90px; }
+
+#custom_carousel .controls li.active {
+  background-color: #eee;
+  border-top: 3px solid orange; }
+
+#custom_carousel .controls a small {
+  overflow: hidden;
+  display: block;
+  font-size: 10px;
+  margin-top: 5px;
+  font-weight: bold; }
+
+.projects {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/cubic3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.container h1 {
+  text-align: center;
+  color: #e2e2e2; }
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto; }
+
 .company-partner {
   text-align: center;
   padding-top: 15px;
@@ -78,7 +125,7 @@ body {
     margin: 0 auto;
     height: 4px;
     border-radius: 1px;
-    background: #1c47e3;
+    background: #1c2544;
     left: 0;
     right: 0;
     bottom: -20px; }
