@@ -75,7 +75,7 @@ body {
     right: 0;
     bottom: -20px; }
   .testimonial-custom .carousel {
-    margin: 50px auto;
+    margin: 40px auto;
     padding: 0 70px; }
   .testimonial-custom .carousel .item {
     color: #999;
@@ -98,16 +98,21 @@ body {
     position: absolute;
     left: 15px;
     top: 0; }
+  .testimonial-custom .carousel-item {
+    height: 20%; }
+  .testimonial-custom #myCarousel {
+    overflow: hidden;
+    width: 100%; }
   .testimonial-custom .carousel .overview b {
     text-transform: uppercase;
     color: #ffffff; }
   .testimonial-custom .carousel .carousel-indicators {
-    bottom: -40px; }
+    bottom: -40px;
+    margin-top: 15%; }
   .testimonial-custom .carousel-indicators li,
   .testimonial-custom .carousel-indicators li.active {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
+    width: 20px;
+    height: 7px;
     margin: 1px 3px; }
   .testimonial-custom .carousel-indicators li {
     background: #e2e2e2; }
