@@ -90,6 +90,9 @@ body {
   display: flex;
   flex: 1 1 auto; }
 
+.card {
+  border-radius: 0rem; }
+
 .company-partner {
   text-align: center;
   padding-top: 15px;
