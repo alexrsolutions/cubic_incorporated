@@ -37,4 +37,15 @@
       }
     }
   }
+
+  //Projects.container
+  .projects {
+    .card-horizontal {
+      display: block;
+      flex: 1 1 auto;
+    }
+    img {
+      width: 100%;
+    }
+  }
 }
