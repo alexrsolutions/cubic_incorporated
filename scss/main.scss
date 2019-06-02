@@ -63,6 +63,20 @@ body {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   background-color: #1e345e;
+
+  .span4 {
+    padding: 15px;
+    width: 100%;
+  }
+  .span4 img {
+    margin-right: 10px;
+  }
+  .span4 .img-left {
+    float: left;
+  }
+  .span4 .img-right {
+    float: right;
+  }
   .col-sm-6 {
     padding: 15px;
   }

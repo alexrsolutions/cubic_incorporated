@@ -8,6 +8,12 @@
 
 // Tablets
 @include mediaMd {
+  //About
+  .about {
+    .span4 img {
+      width: 100%;
+    }
+  }
 }
 
 // Smartphones
@@ -35,6 +41,13 @@
           }
         }
       }
+    }
+  }
+
+  //About
+  .about {
+    .span4 img {
+      width: 100%;
     }
   }
 
