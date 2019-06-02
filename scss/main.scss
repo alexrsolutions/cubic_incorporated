@@ -59,10 +59,13 @@ body {
 //About Section
 .about {
   width: 100%;
-  height: 400px;
+  height: 40%;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   background-color: #1e345e;
+  .col-sm-6 {
+    padding: 15px;
+  }
 }
 
 //Projects
