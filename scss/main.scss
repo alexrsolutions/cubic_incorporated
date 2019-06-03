@@ -1,18 +1,25 @@
-$primary-colot: #4444;
-
+$primary-color: rgb(30, 38, 78);
+$white-color: #ffffff;
 @import "config";
 
 body {
-  background-color: $primary-colot;
+  background-color: $primary-color;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu-container {
-  width: 100%;
-  height: 65px;
-  background-color: #1e345e;
+  .navbar-brand {
+    color: #ffffff;
+  }
+
+  .nav-item a.nav-link {
+    color: #fff;
+  }
+
+  .bg-custom {
+    background-color: #1e345ecc;
+  }
 }
 
 .container-custom {
@@ -64,6 +71,25 @@ body {
   margin: 0 0 0 0;
   background-color: #1e345e;
 
+  .container h1 {
+    color: $white-color;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .block .row {
+    text-align: center;
+  }
+
+  .content-heading {
+    color: $white-color;
+    font-weight: bold;
+  }
+
+  .span4 p {
+    color: $white-color;
+  }
+
   .span4 {
     padding: 15px;
     width: 100%;
@@ -114,6 +140,7 @@ body {
   padding-left: auto;
   padding-right: auto;
   padding-bottom: 15px;
+  background-color: rgb(230, 230, 230);
 }
 
 .slide {
@@ -210,6 +237,36 @@ body {
   .carousel-indicators li.active {
     color: #fff;
     background: #1c47e3;
+  }
+}
+
+.contact {
+  .card {
+    border: 0px;
+  }
+
+  .mt-2 i {
+    color: #1e345e;
+  }
+
+  hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  i {
+    color: #ffffff;
+    padding-right: 10px;
+  }
+  .contact-color {
+    color: #ffffff;
+  }
+
+  .contact-info-color {
+    background-color: #1e345e;
+  }
+
+  .white-text {
+    color: #ffffff;
   }
 }
 
