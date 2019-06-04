@@ -141,11 +141,20 @@ body {
 .projects {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../imgs/cubic3.jpg");
+  //background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  //url("../imgs/cubic3.jpg");
+  background-color: #1e345e;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  .card-title {
+    color: #ffffff;
+  }
+
+  .card-text {
+    color: #a3a3a3;
+  }
 
   .container h1 {
     text-align: center;
@@ -159,6 +168,21 @@ body {
 
   .card {
     border-radius: 0rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+  }
+
+  .btn-primary {
+    border-radius: 0rem;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3.5px solid #ffffff;
+  }
+
+  .btn-primary:hover {
+    color: #f0f0f0;
+    background-color: #1c2544;
+    border: 3.5px solid #1c2544;
   }
 }
 

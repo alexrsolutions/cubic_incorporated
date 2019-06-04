@@ -92,10 +92,14 @@ body {
 .projects {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/cubic3.jpg");
+  background-color: #1e345e;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+  .projects .card-title {
+    color: #ffffff; }
+  .projects .card-text {
+    color: #a3a3a3; }
   .projects .container h1 {
     text-align: center;
     color: #e2e2e2; }
@@ -103,7 +107,18 @@ body {
     display: flex;
     flex: 1 1 auto; }
   .projects .card {
-    border-radius: 0rem; }
+    border-radius: 0rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: none; }
+  .projects .btn-primary {
+    border-radius: 0rem;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3.5px solid #ffffff; }
+  .projects .btn-primary:hover {
+    color: #f0f0f0;
+    background-color: #1c2544;
+    border: 3.5px solid #1c2544; }
 
 .company-partner {
   text-align: center;
