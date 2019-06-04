@@ -6,6 +6,12 @@ body {
 .menu-container .navbar-brand {
   color: #ffffff; }
 
+.menu-container .color-icon {
+  color: #ffffff; }
+
+.menu-container .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0); }
+
 .menu-container .nav-item a.nav-link {
   color: #fff; }
 
@@ -46,13 +52,26 @@ body {
   height: 40%;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
-  background-color: #1e345e; }
+  background-color: #1e345e;
+  /*.block .row {
+    text-align: center;
+  }*/ }
   .about .container h1 {
     color: #ffffff;
     padding-top: 15px;
     text-align: center; }
-  .about .block .row {
-    text-align: center; }
+  .about .card {
+    background-color: #1c2544;
+    border: 0px solid rgba(0, 0, 0, 0); }
+    .about .card .card-title {
+      color: #ffffff;
+      font-size: 32px;
+      font-weight: bold; }
+    .about .card .card-text {
+      color: #a3a3a3; }
+    .about .card .icon-about {
+      margin-right: 15px;
+      font-size: 2.625rem; }
   .about .content-heading {
     color: #ffffff;
     font-weight: bold; }
@@ -208,8 +227,13 @@ body {
       font-size: 15px;
       color: #ffffff; }
 
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .about .img-left {
+    width: 60%;
+    height: 110%; } }
+
 @media screen and (max-width: 768px) {
-  .about .span4 img {
+  .about .img-left {
     width: 100%; }
   .about h2 {
     text-align: center; } }
