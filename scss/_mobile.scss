@@ -4,13 +4,19 @@
 
 // Desktop
 @include mediaLg {
+  .about {
+    .img-left {
+      width: 60%;
+      height: 110%;
+    }
+  }
 }
 
 // Tablets
 @include mediaMd {
   //About
   .about {
-    .span4 img {
+    .img-left {
       width: 100%;
     }
 

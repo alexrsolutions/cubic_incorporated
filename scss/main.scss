@@ -13,6 +13,14 @@ body {
     color: #ffffff;
   }
 
+  .color-icon {
+    color: #ffffff;
+  }
+
+  .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+  }
+
   .nav-item a.nav-link {
     color: #fff;
   }
@@ -77,9 +85,30 @@ body {
     text-align: center;
   }
 
-  .block .row {
-    text-align: center;
+  //Cards inside about section
+  .card {
+    background-color: #1c2544;
+    border: 0px solid rgba(0, 0, 0, 0);
+
+    .card-title {
+      color: #ffffff;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .card-text {
+      color: #a3a3a3;
+    }
+
+    .icon-about {
+      margin-right: 15px;
+      font-size: 2.625rem;
+    }
   }
+
+  /*.block .row {
+    text-align: center;
+  }*/
 
   .content-heading {
     color: $white-color;
