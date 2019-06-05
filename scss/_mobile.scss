@@ -9,6 +9,10 @@
       width: 60%;
       height: 110%;
     }
+
+    .col-sm-6 {
+      padding-top: 15px;
+    }
   }
 }
 
@@ -62,6 +66,9 @@
   .about {
     .span4 img {
       width: 100%;
+    }
+    .mb-4 {
+      margin-bottom: 1rem !important;
     }
   }
 
