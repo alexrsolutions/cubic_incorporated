@@ -89,7 +89,6 @@ body {
   .container h1 {
     color: $white-color;
     padding-top: 15px;
-    text-align: center;
   }
 
   //Cards inside about section
@@ -120,6 +119,15 @@ body {
   .content-heading {
     color: $white-color;
     font-weight: bold;
+    h3 {
+      font-size: 1.5rem;
+    }
+    hr {
+      margin: 0 0 10px 0;
+      width: 50px;
+      height: 1px;
+      background: #f0f0f0;
+    }
   }
 
   .span4 p {
