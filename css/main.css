@@ -40,7 +40,7 @@ body {
       .img-principal .title-container .title .title-cursor {
         margin: auto;
         color: #ffffff;
-        font-size: 4.8em; }
+        font-size: 4.5em; }
       .img-principal .title-container .title .subtitle h1 {
         margin: 0;
         color: #ffffff; }
@@ -96,6 +96,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+  .projects .container h1 {
+    padding-bottom: 25px; }
   .projects .card-title {
     color: #ffffff; }
   .projects .card-text {
@@ -251,7 +253,9 @@ body {
   .about .img-left {
     width: 100%; }
   .about h2 {
-    text-align: center; } }
+    text-align: center; }
+  .title-cursor {
+    font-size: 3em; } }
 
 @media screen and (max-width: 500px) {
   .img-principal .title-container .title {
