@@ -58,6 +58,7 @@ body {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   background-color: #1e345e;
+  color: #ffffff;
   /*.block .row {
     text-align: center;
   }*/ }
@@ -151,6 +152,44 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
+
+.photo-gallery {
+  background-color: #404c63; }
+  .photo-gallery h2 {
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin: 30px 0 30px; }
+  .photo-gallery h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    border-radius: 1px;
+    background: #1c2544;
+    left: 0;
+    right: 0;
+    bottom: -20px; }
+  .photo-gallery .img-fluid {
+    -webkit-filter: brightness(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer; }
+  .photo-gallery .img-fluid:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer; }
 
 .testimonial-custom {
   background-color: #404c63; }
